@@ -1,0 +1,37 @@
+{
+  "name": "train",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "scripts": {
+    "start": "nodemon --exec npx ts-node ./src/app.ts",
+    "test": "jest"
+  },
+  "author": "Danila Razumov",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "7.18.6",
+    "@babel/plugin-proposal-decorators": "7.28.0",
+    "@babel/preset-typescript": "^7.27.1",
+    "better-sqlite3": "^11.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "typeorm": "^0.3.25",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.28.0",
+    "@types/express": "^5.0.5",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^24.10.0",
+    "eslint": "^9.30.1",
+    "jest": "^27.3.1",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "tslint": "^5.20.1",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "sourseMap": true,
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "outDir": "build",
+        "baseUrl": "./src",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+    }
+}
