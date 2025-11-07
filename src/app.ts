@@ -24,7 +24,12 @@ const runApp = async () => {
       process.exit(1);
     });
 
-    app.use(cors());
+    // ✅ Настройка CORS для Netlify фронта
+    app.use(cors({
+      origin: 'https://cheerful-gelato-bff8cf.netlify.app',
+      credentials: true
+    }));
+
     app.use(express.json());
 
     app.use(routerAuth);
